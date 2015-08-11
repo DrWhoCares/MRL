@@ -1,13 +1,21 @@
-﻿Build started 7/25/2015 1:26:04 PM.
+﻿Build started 8/9/2015 10:21:11 AM.
      1>Project "C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\MRL\MRL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Engine.cpp Map.cpp main.cpp
+         Map.cpp
+         Engine.cpp
+         Generating Code...
+         Compiling...
          main.cpp
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\Debug\MRL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\DrWhoCares\Documents\Coding\libtcod-1.5.1" /LIBPATH:"C:\Users\DrWhoCares\Documents\Coding\libtcod-1.5.1\lib" "libtcod-VS.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\Debug\MRL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\Debug\MRL.lib" /MACHINE:X86 Debug\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\Debug\MRL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\DrWhoCares\Documents\Coding\libtcod-1.5.1" /LIBPATH:"C:\Users\DrWhoCares\Documents\Coding\libtcod-1.5.1\lib" "libtcod-VS.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\Debug\MRL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\Debug\MRL.lib" /MACHINE:X86 Debug\Actor.obj
+         Debug\Engine.obj
+         Debug\main.obj
+         Debug\Map.obj
          MRL.vcxproj -> C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\Debug\MRL.exe
      1>Done Building Project "C:\Users\DrWhoCares\Documents\Coding\ROGUELIKE\MRL\MRL\MRL\MRL.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.34
+Time Elapsed 00:00:03.39
